@@ -1,0 +1,225 @@
+.skills{
+  margin-top: 40px;
+}
+.skills .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head h2 {
+  width: 100px;
+  font-weight: 900;
+  font-size: 43px;
+  color: var(--three-color);
+}
+.head span {
+  width: calc(100% - 115px);
+  height: 2px;
+  background-color: #58617750;
+}
+.titles-skills {
+  height: 660px;
+  background-color: rgba(204, 220, 233, 0.471);
+  width: 150px;
+  border-radius: 10px 0px 0px 10px;
+}
+.titles-skills > div {
+  cursor: pointer;
+}
+.handleHov {
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.active {
+  background-color: rgba(204, 220, 233, 0.69);
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.titles-skills .handleHov:hover {
+  background-color: rgba(204, 220, 233, 0.69);
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.titles-skills div {
+  text-align: center;
+  margin-top: 20px;
+}
+.titles-skills div p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #586177;
+}
+.skills-item {
+  height: 660px;
+  width: calc(100% - 155px);
+  background-color: rgba(204, 220, 233, 0.471);
+  border-radius: 0px 10px 10px 0px;
+}
+.titles-skills img {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-web {
+  font-size: 106px;
+  font-weight: 100;
+  color: var(--three-color);
+}
+.skills-item div div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 10px;
+}
+.skills-item div div div {
+  text-align: center;
+}
+.icon-item {
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills-item h3 {
+  margin-top: 20px;
+  padding-left: 20px;
+  color: var(--three-color);
+  font-size: 30px;
+  font-weight: 600;
+}
+.skills-item p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -8px;
+}
+.skills-item > div > div {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .skills .container {
+    flex-direction: column;
+  }
+  .titles-skills div {
+    margin-top: 0px;
+  }
+  .head h2{
+    text-align: center !important;
+    width: 100%;
+  }
+  .titles-skills div p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .skills .titles-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: -22px !important;
+    overflow: hidden;
+  }
+  .skills .titles-skills {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+  }
+  .handleHov {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 25%;
+  }
+  .titles-skills img {
+    max-width: 50px;
+  }
+  .icon-web {
+    font-size: 50px;
+    transform: translateY(5px);
+  }
+  .skills-item {
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .active {
+    width: 25%;
+  }
+  .skills-item {
+    min-height: 660px !important;
+    height: auto;
+  }
+  .skills-item div div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+  }
+  .skills-item h3{
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width:536px) {
+  .icon-web{
+    transform: translateY(12px);
+  }  
+}
+.html .icon-item {
+  color: rgb(255, 128, 0);
+}
+.css .icon-item {
+  color: rgb(2, 44, 255);
+}
+.js .icon-item {
+  color: rgb(255, 209, 27);
+}
+.vue .icon-item {
+  color: green;
+}
+.react .icon-item {
+  color: blue;
+}
+.redux .icon-item {
+  color: blueviolet;
+}
+.bootstrap .icon-item {
+  color: blueviolet;
+}
+.mui .icon-item {
+  color: rgb(0, 85, 255);
+}
+.node .icon-item {
+  color: green;
+}
+.ex .icon-item {
+  color: red;
+}
+.mongo .icon-item {
+  color: green;
+}
+.git .icon-item {
+  color: rgb(255, 89, 0);
+}
+.npm .icon-item {
+  color: red;
+}
+.post .icon-item {
+  color: rgb(255, 102, 0);
+}
+.vs .icon-item {
+  color: rgb(52, 52, 251);
+}
+.word .icon-item {
+  color: rgb(139, 139, 255);
+}
+.wooco .icon-item {
+  color: blueviolet;
+}
+.shop .icon-item {
+  color: rgb(12, 167, 12);
+}

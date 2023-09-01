@@ -1,0 +1,35 @@
+
+.contact .head span{
+    width: calc(100% - 180px) !important;
+}
+.contact-items{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    width: fit-content;
+}
+.contact-items div{
+    margin-bottom: 20px;
+}
+.contact .icon-cont{
+    font-size: 30px;
+    color: var(--second-color);
+    margin-right: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.contact a:hover{
+    color: #4b4b4b;
+}
+.footer{
+    background-color: var(--three-color);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .8px;
+    height: 40px;
+    line-height: 40px;
+}
