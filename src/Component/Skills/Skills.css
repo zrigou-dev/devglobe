@@ -14,7 +14,7 @@
 }
 .head h2 {
   width: 100px;
-  font-weight: 900;
+  font-weight: 900; 
   font-size: 43px;
   color: var(--three-color);
 }
@@ -78,6 +78,7 @@
 }
 .skills-item div div div {
   text-align: center;
+  display: block;
 }
 .icon-item {
   font-size: 80px;
@@ -94,7 +95,7 @@
 .skills-item p {
   font-size: 16px;
   font-weight: 500;
-  margin-top: -8px;
+  margin-top: 5px;
 }
 .skills-item > div > div {
   margin-top: 50px;
